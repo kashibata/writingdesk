@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&family=Sacramento&display=swap');
+
+/* font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Sacramento', cursive; */
+
+
+/****COMMON-START****/
+
+*{ box-sizing: border-box;}
+.hide{
+  width: 0; height: 0; overflow: hidden;
+  font-size: 0; line-height: 0; text-indent: -9999px;
+}
+
+/* .clearfix::after{content: ""; display: block; clear: both;} */
+img{
+  width: 100%; max-width: 100%;
+  vertical-align: top;
+}
+
+a{text-decoration: none; color: inherit;}
+body{
+  word-break: break-all; -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialias;
+  font: 16px 'Noto Sans KR', 'Sacramento' , dotum, sans-serif;
+}
+.sp-inline {
+  display: none;
+}
+
+/****COMMON-END****/
